@@ -6,7 +6,6 @@
 //  Copyright © yy user_name. All rights reserved.
 //
 
-
 import UIKit
 
 class templateViewController: UIViewController {

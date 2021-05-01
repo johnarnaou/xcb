@@ -43,8 +43,12 @@ def main()
   project_name = ARGV[1]
   module_name = ARGV[2]
   user_name = ARGV[3]
+
   if ARGV[4] != nil && ARGV[4].include?('targets=')
     argument_targets = ARGV[4].gsub('targets=', '')
+  end
+  if ARGV[5] != nil && ARGV[5].include?('targets=')
+    argument_targets = ARGV[5].gsub('targets=', '')
   end
   if ARGV[4] != nil && ARGV[4].include?('folder=')
     in_folder = ARGV[4].gsub('folder=', '')
@@ -56,6 +60,7 @@ def main()
   if in_folder == nil
     in_folder = ''
   else
+    createFolderIfNeeded(in_folder)
     in_folder = in_folder + '/'
   end
   project = Xcodeproj::Project.open(File.join(current_path, project_name))

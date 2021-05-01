@@ -1,11 +1,19 @@
 # xcb
 
 XCB (Xcode boilerplate) is a boilerplate code generator.
-This is my first script ever in Ruby, I literally googled every line. You are welcome to improve it if you are a Ruby master!
+This is my first program ever in Ruby, I literally googled every line. You are welcome to improve it if you are a Ruby master!
 
 # Installation
 
 Clone the repository and run ```./install.sh``` in your terminal.
+
+# How to
+
+All you have to do is specify in the template folders the subfolders and the files that you want to be generated. You can find an mvp example by default in the template folder.
+
+Run the following command to access the template folder
+
+```open ~/.xcb/template```
 
 # Usage 
 
@@ -22,10 +30,6 @@ If you want to specify the targets of the files just run
 If you want to specify a folder under your main target just run
 
 ```sh ~/.xcb/xcb.sh Home folder=MyFolder```
-
-# How to
-
-All you have to do is specify in the template folders the subfolders and the files that you want to be generated. You can find an mvp example by default in the template folder.
 
 # Placeholders
 
