@@ -3,7 +3,7 @@
 //  project_name
 //
 //  Created by user_name on dd/mm/yy.
-//  Copyright © year user_name. All rights reserved.
+//  Copyright © yy user_name. All rights reserved.
 //
 
 class templatePresenter: templatePresenterProtocol {
@@ -11,8 +11,8 @@ class templatePresenter: templatePresenterProtocol {
     // MARK: - Properties
 
     weak var view: templateViewProtocol?
-    var interactor: templateInteractorOutputProtocol?
-    var wireframe: teamplteWireframeProtocol?
+    var interactor: templateInteractorInputProtocol?
+    var wireframe: templateWireframeProtocol?
 
 }
 
