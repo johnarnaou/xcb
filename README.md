@@ -9,7 +9,7 @@ Clone the repository and run ```./install.sh``` in your terminal.
 
 # How to
 
-All you have to do is specify in the template folders the subfolders and the files that you want to be generated. You can find an mvp example by default in the template folder.
+All you have to do is specify in the template folders the subfolders and the files that you want to be generated. You can find a viper example by default in the template folder.
 
 Run the following command to access the template folder
 
