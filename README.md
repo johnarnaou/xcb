@@ -1,3 +1,6 @@
+![xcb_cover](https://user-images.githubusercontent.com/925011/160620752-9d09ab82-a125-40e5-9868-2954c0567767.png)
+
+
 # xcb
 
 XCB (Xcode boilerplate) is a boilerplate code generator.
