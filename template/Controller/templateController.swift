@@ -15,7 +15,7 @@ class templateViewController: UIViewController {
     var presenter: templatePresenterProtocol?
 }
 
-// MARK - templateViewProtocol
+// MARK: - templateViewProtocol
 extension templateViewController: templateViewProtocol {
 
 }
