@@ -11,7 +11,12 @@ class templateModule {
     // MARK: - Methods
 
     static func create() -> templateViewController? {
-        guard let viewController: templateViewController = nibController() else { return nil }
+         let bundle = Bundle(for: templateViewController.self)
+        guard let viewController: templateViewController = bundle.loadNibNamed(
+            String(describing: templateViewController.self),
+            owner: nil,
+            options: nil
+        )?.first as? templateViewController else { return nil }
 
         let presenter = templatePresenter()
         let interactor = templateInteractor()
